@@ -825,6 +825,34 @@ Therefore, an agent should not blindly trust:
 > **Agent security requires treating model-generated decisions as potentially untrusted.**
 
 ---
+## Jailbreaking
+
+### What is a jailbreak?
+
+A **jailbreak** is an input deliberately designed to make an LLM bypass or violate behavioral restrictions imposed during instruction tuning/alignment.
+
+Conceptually:
+
+```text
+Normal prompt
+     ↓
+LLM
+     ↓
+Safe / intended behavior
+```
+A jailbreak attempts:
+```text
+Adversarial prompt
+        ↓
+LLM
+        ↓
+Bypass learned restrictions
+        ↓
+Unintended behavior
+```
+
+
+---
 
 ## 28. LLM security is an adversarial problem
 
