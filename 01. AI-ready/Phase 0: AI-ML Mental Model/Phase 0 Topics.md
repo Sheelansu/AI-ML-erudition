@@ -1,0 +1,10 @@
+- AI vs ML vs DL
+- Supervised vs unsupervised learning
+- Self-supervised learning
+- Training vs inference
+- Parameters vs hyperparameters
+- Loss functions
+- Generalization
+- Representation learning
+- Foundation models
+- Pretraining vs fine-tuning
